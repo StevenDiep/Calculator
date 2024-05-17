@@ -1,0 +1,62 @@
+
+.mainbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1424px;
+    background-color: lightblue;
+}
+
+.calcBody{
+    display:flex;
+    flex-direction: column;
+    height: 533.5px;
+    width: 426px;
+    background-color: rgb(81, 81, 81);
+    padding:10px;
+}
+
+.display{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 70px;
+    height: 108px;
+    width:426px;
+    background-color: lightgray;
+    border: solid black 2px;
+    box-sizing: border-box;
+}
+
+.row{
+    display:flex;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:85px;
+    width:106.5px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.topButton{
+    background-color: blue;
+}
+
+.sideButton{
+    background-color: orange;
+}
+
+.middleButton{
+    background-color: green;
+}
+
+.zero{
+    
+    width:218px;
+}
